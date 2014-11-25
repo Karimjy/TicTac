@@ -1,0 +1,28 @@
+<div class="game" ng-controller="ClockCtrl">
+
+	<div id="clock"></div>
+
+	<span id="hd">{{hourday}}</span>
+
+	<div class="saisie">
+		<div class="hour">
+			<div class="buttons">
+				<div class="up" ng-click="up('hour')"><img src="img/button_up.png" ></div>
+				<div class="down" ng-click="down('hour')"><img src="img/button_down.png"></div>
+			</div>
+			<div class="numberH"><img src="img/span.png" class="span"><span class="number">{{hour}}</span></div>
+		</div>
+		<span class="h">h</span>
+		<div class="minute">
+			<div class="numberM"><img src="img/span.png" class="span"><span class="number">{{minute}}</span></div>
+			<div class="buttons">
+				<div class="up" ng-click="up('minute')"><img src="img/button_up.png"></div>
+				<div class="down" ng-click="down('minute')"><img src="img/button_down.png"></div>
+			</div>
+		</div>
+	</div>
+
+	<img src="img/verify.png" class="button" ng-click="check(hour,minute)">
+
+
+</div>
