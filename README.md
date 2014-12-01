@@ -1,14 +1,17 @@
 Tic Tac
+=======
 
 Un jeu pour apprendre à l'heure en CE2
 
-Installations:
+Installations
+=============
 	bower install
 	npm install
 
 	grunt serve
 
-Test:
+Test
+====
 
 	webdriver-manager start
 	cd test
